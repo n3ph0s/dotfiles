@@ -1,0 +1,77 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$git_metrics\
+$fill\
+$c\
+$container\
+$golang\
+$python\
+$rust\
+$vagrant\
+$cmd_duration $jobs $time\
+$line_break\
+$character"""
+
+[directory]
+style = "#50fa7b"
+read_only = " 🔒"
+truncation_length = 8
+truncate_to_repo = true
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vicmd_symbol = "[❮](green)"
+
+[git_branch]
+symbol = " "
+format = "[$symbol$branch]($style) "
+style = "#ff79c6"
+
+[jobs]
+symbol = ""
+style = "bold red"
+number_threshold = 1
+format = "[$symbol]($style)"
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = "#ff5555"
+
+[git_metrics]
+disabled = false
+
+[fill]
+symbol = " "
+
+[cmd_duration]
+format = "[$duration]($style)"
+style = "yellow"
+
+[time]
+disabled = false
+style = "bold white"
+format = "[$time]($style)"
+
+[c]
+format = "[$symbol($version )]($style)"
+
+[container]
+format = '[$symbol \[$name]]($style)'
+
+[golang]
+format = "[$symbol($version )]($style)"
+symbol = " "
+
+[python]
+format = "[$symbol($version )]($style)"
+symbol = " "
+
+[rust]
+symbol = " "
+
+[vagrant]
+format = "[$symbol($version )]($style)"
+

@@ -1,0 +1,15 @@
+# File Management 
+
+alias ls='exa --all --group-directories-first --long --colour=always'
+alias ld='exa --colour=always --long --only-dirs'
+
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+alias cat='batcat --theme Dracula'
+
+# Git
+alias ga='git add'
+alias gcm='git commit'
+alias gp='git push'
+alias gc='git clone'
