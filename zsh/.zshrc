@@ -1,5 +1,6 @@
 fpath=($ZDOTDIR/external $fpath)
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage
 
 source "$XDG_CONFIG_HOME/zsh/aliases"
 

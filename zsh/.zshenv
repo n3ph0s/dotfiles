@@ -11,8 +11,8 @@ export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
 export XDG_DATA_DIRS=/var/lib/flatpak/exports/share:$XDG_DATA_HOME/flatpak/exports/share
 
 # Set preferred editor
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="/usr/bin/local/nvim.appimage"
+export VISUAL="/usr/bin/local/nvim.appimage"
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
