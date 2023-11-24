@@ -131,7 +131,8 @@ focus_follows_mouse no
 
 # To find class and instance `xprop | grep WM_CLASS`
 # assign [class="Firefox-esr" instance="Navigator"] $ws2
-assign [class="Vmware" instance="vmware"] $ws5
+# assign [class="Vmware" instance="vmware"] $ws5
+assign [class="Virt-manager" instance="virt-manager"] $ws5
 assign [class="Signal" instance="signal"] $ws2
 assign [class="discord" instance="discord"] $ws2
 assign [class="Brave-browser" instance="brave-browser"] $ws3
