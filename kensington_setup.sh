@@ -8,7 +8,7 @@ if [[ ! -z "$check" ]]; then
   # Configure the files so that bottom left is left click, top right is right click, bottom right is middle button and top left is back button
   xinput set-button-map $mouse_id 1 8 2 4 5 6 7 3 9
   # Enable Natural Scrolling
-  xinput set-prop $mouse_id "libinput Natural Scrolling Enabled" 1
+  xinput set-prop $mouse_id "libinput Natural Scrolling Enabled" 0
   # Disable accleration for the track ball
   xinput set-prop $mouse_id "libinput Accel Profile Enabled" 0, 1
   # Enable scrolling by holding middle mouse button and using the ball to scroll ( really smooth and fast ). 
