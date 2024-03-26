@@ -23,6 +23,7 @@ export HISTSIZE=10000
 # Maximum events in history file
 export SAVEHIST=10000
 
+export FZF_TMUX_OPTS="-p -w 80% -h 60%"
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
 export FZF_CTRL_T="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS=" \
